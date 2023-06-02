@@ -1,0 +1,214 @@
+h1 {
+    /* font-family: "Amatic SC", cursive; */
+    /* font-family: "Fuzzy Bubbles", cursive; */
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: "Neucha", cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  body {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    /* padding: 7% 15%; */
+  }
+  
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+  }
+  .container-fluid {
+    padding: 3% 15% 7%;
+    /* padding: 7% 15%; */
+  }
+  .navbar-brand {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  .navbar {
+    padding: 0 0 3rem;
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .download-button {
+    margin: 5% 1%;
+  }
+  /* .iphone6 { */
+    /* width: 23%; */
+    /* rotate: 25deg; */
+    /* transform: rotate(25deg);
+    position: absolute;
+    right: 25%; */
+  /* } */
+
+  .cakefirstpage{
+    width:  80%;
+    /* height: 120%; */
+    /* align-items: center; */
+    margin-left: 25%;
+  }
+
+  .embeddedmap{
+    margin-left: 20%;
+  }
+
+  /* for responsiveness, we use mediaquery */
+  @media (max-width: 992px) {
+    .iphone6 {
+      position: static;
+      transform: rotate(0);
+      width: 70%;
+    }
+    #title {
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  /* 2nd part features */
+  #features {
+    /* text-align: center; */
+    padding: 3% 15%;
+    background-color: #fff;
+    position: relative; 
+  }
+  .feat-title {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  .par {
+    display: inline-block;
+    margin: 7% 3%;
+  }
+  .icon {
+    padding-bottom: 1rem;
+    /* transform: scale(3); */
+    color: #ef8172;
+  }
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  /* 3rd part testimonialas */
+  #testimonials {
+    /* text-align: center; */
+    background-color: #ed8172;
+    color: #fff;
+  }
+  h2 {
+    font-family: "Neucha", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .testimonial-image {
+    width: 35%;
+    /* border-radius: 50%; */
+    margin-top: 10px;
+    padding-top: 30px;
+  }
+  
+  /* press section */
+  #press {
+    padding-bottom: 7%;
+    /* text-align: center; */
+    background-color: #ed8172;
+    color: #fff;
+  }
+  .cred {
+    width: 13%;
+    margin: 15px 20px 15px;
+  }
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  /* pricing section */
+  .card {
+    /* display: inline-block; */
+    /* width: 33%; */
+    /* text-align: center; */
+    margin: 8% 2%;
+  }
+  
+  #pricing {
+    /* text-align: center; */
+    padding: 7% 10%;
+  }
+  
+  .price-button {
+    width: 70%;
+    margin-top: 5%;
+  }
+  /* cta */
+  #cta {
+    background-color: #ff4c68;
+  }
+  .ctasection {
+    /* text-align: center; */
+    padding: 7% 15%;
+  }
+  .cta-heading {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+  }
+  .deliver-location{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    line-height: 1.2;
+  }
+
+  .cake-variety{
+    width: 100%;
+  }
+  
+  /* copyright section */
+
+  .foot {
+    padding: 4% 15%;
+    /* text-align: center; */
+  }
+
+  .address{
+    margin-top: 4%;
+  }
+  .social-icon {
+    margin: 15px 7px;
+  }
+
+  .testimonial-text{
+    font-size: 1.7rem;
+  }
+  
+  .doneorder{
+    /* align-items: center; */
+    margin-top: 15%;
+  }
+
+
+  /* orders */
+  .formm{
+    margin: auto 27%;
+    /* text-align: center; */
+    align-items: left;
+    font-size: 1.3rem;
+  }
+
+
+
+  .cakedetails{
+    margin: auto 30%;
+  }
+
+  .form-select{
+    margin: 3% 0;
+  }
